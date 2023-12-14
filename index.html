@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dialog Custom </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/other/normalize.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <style>
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: white;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 12px;
+            color: #6F6F78;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: black;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+<header id="main-header">
+    <section class="left-section">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About Us</a>
+            <a href="#">Mobile</a>
+            <a href="#">Television</a>
+            <a href="#">BroadBand</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </section>
+    <section class="right-section">
+        <img class="logo-png" src="assets/img/pngegg.png" alt="dialog">
+    </section>
+</header>
+
+
+<main id="home-Page-1stPage">
+
+
+</main>
+
+
+<main id="aboutUs-2ndPage-dialog">
+    <section class="up-section-topic">
+        <h1>We are Dialog Axiata</h1>
+    </section>
+    <section class="down-section">
+        <h2 class="mission-topic">Our Mission</h2>
+        <p class="about-description">To be the undisputed leader in the provision of multi-sensory connectivity resulting always, in the
+            empowerment and enrichment
+            of Sri Lankan lives and enterprises.</p>
+
+        <h2 class="mission-topic">Our Vision</h2>
+        <p class="about-description">To lead in the provision of technology enabled connectivity
+            touching multiple human senses and faculties,
+            through committed adherence to customer-driven, ethical,
+            responsive and flexible business processes, and through the
+            delivery of quality service and leading edge technology
+            unparalleled by any other, spurred by an empowered set of
+            dedicated individuals who are driven by an irrepressible desire
+            to work as one towards a common
+            goal in the truest sense of team spirit</p>
+
+
+    </section>
+</main>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</body>
+</html>

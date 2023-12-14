@@ -1,0 +1,110 @@
+@media all and (min-width: 350px) and (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #main-header {
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 0 5px 1px #595454;
+        background-color: #f1f1f1;
+    }
+
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-family: monospace;
+    }
+
+
+
+    .logo-png{
+        width: 132px;
+        position: relative;
+        left: 20px;
+    }
+    /*Home 1st Page================================*/
+
+    #home-Page-1stPage{
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../img/pone.PNG");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+    /*About Us-@nd Page==============================*/
+
+    #aboutUs-2ndPage-dialog{
+        width: 100vw;
+        height: 120vh;
+        display: flex;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .up-section-topic{
+        width:90%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.9rem;
+        /*border: 1px solid;*/
+        flex-direction: column;
+    }
+
+    .up-section-topic > h1{
+        font-family: "Lato", sans-serif;
+        color: #333333;
+    }
+    .down-section{
+        width: 90%;
+        height: 80%;
+        display: flex;
+       /* border: 1px solid darkred;*/
+        flex-direction: column;
+        background-image: url('../img/pngegg (1).png');
+        background-repeat: no-repeat;
+        background-size: 101% 64%;
+        position: relative;
+        background-position: bottom;
+    }
+
+    .mission-topic{
+        font-family:"Lato", sans-serif;
+        color: #484747;
+    }
+
+    .about-description{
+        font-size: 1.0rem;
+        font-family: 'Inter', sans-serif;
+        color: rgb(19, 19, 19);
+        text-align: justify;
+        margin-top: -4px;
+        letter-spacing: 0px;
+        line-height: 25px;
+    }
+    .diolog-xl{
+        width: 100px;
+    }
+
+
+
+
+
+
+
+
+
+}
