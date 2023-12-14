@@ -207,6 +207,19 @@
         flex-direction: column;
     }
 
+    /*4th Page Dialog Television*/
+
+    #dialog-television-4thPage{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
 
 
 
