@@ -44,7 +44,7 @@
     /*About Us-@nd Page==============================*/
     #aboutUs-2ndPage-dialog {
         width: 100vw;
-        height: 120vh;
+        height: 128vh;
         display: flex;
         background-color: white;
         justify-content: center;
@@ -105,11 +105,11 @@
     /*Phone===============*/
     #phone-3rdPage- {
         width: 100vw;
-        height: 250vh;
+        height: 230vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
+       /* margin-top: 50px;*/
         background-color: #F7F7F7;
         background-repeat: no-repeat;
         background-size: 100% 100%;
