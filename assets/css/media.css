@@ -142,7 +142,7 @@
         flex-direction: column;
     }
     .card-system{
-        margin-top: 37px;
+        margin-top: 18px;
         width: 100%;
         height: 110px;
         display: flex;
@@ -152,7 +152,7 @@
     }
 
     .card-system>div{
-        border: 2px solid #4f0303;
+        border: 2px solid #a20303;
         width: 30%;
         height: 100%;
         border-radius: 11px;
@@ -277,6 +277,8 @@
     .channel-img{
         width: 80px;
     }
+
+    /*==========extra Image*/
 
 
 
