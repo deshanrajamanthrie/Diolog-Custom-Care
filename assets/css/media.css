@@ -7,10 +7,12 @@
         width: 100vw;
         height: 10vh;
         display: flex;
+        position: fixed;
         justify-content: space-between;
         align-items: center;
         box-shadow: 0 0 5px 1px #595454;
         background-color: #f1f1f1;
+        z-index: 1;
     }
 
     .sidenav {
@@ -31,7 +33,7 @@
     /*Home 1st Page================================*/
     #home-Page-1stPage {
         width: 100vw;
-        height: 90vh;
+        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -387,8 +389,41 @@
 
     }
 
-    /*++++++=============================*/
+    /*++++++=Footer============================*/
+    #footer-last {
+        height: auto;
+    }
 
+    #footer-last > .downSection-Footer {
+        flex-direction: column-reverse;
+    }
+
+    #footer-last > .downSection-Footer > .left-article-footer {
+        padding-left: 171px;
+
+    }
+
+    .downSection-Footer > .right-article-footer {
+        width: 88%;
+    }
+
+    .right-article-footer > .img-project-footer {
+        margin: 31px;
+    }
+
+    .assingment-lab {
+        width: 169px;
+        height: 45px;
+        border-radius: 10px;
+        margin-bottom: 28px;
+    }
+
+    .footer-img{
+        width: 140px;
+        position: relative;
+        left: 178px;
+        top: -12px;
+    }
 
 }
 
